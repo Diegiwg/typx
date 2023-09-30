@@ -1,0 +1,31 @@
+{
+    "name": "typx",
+    "version": "1.0.0",
+    "description": "Typx is a JavaScript library that empowers you with functions to create safe data types in JavaScript, ensuring type safety in your applications.",
+    "license": "MIT",
+    "main": "./lib/typx.js",
+    "type": "module",
+    "author": {
+        "name": "Diegiwg (Diego Queiroz)",
+        "email": "diegiwg@gmail.com",
+        "url": "https://github.com/Diegiwg"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Diegiwg/typx"
+    },
+    "keywords": [
+        "typx",
+        "type-safety",
+        "type-security",
+        "type-assertion",
+        "type-enforcement",
+        "type-safety"
+    ],
+    "devDependencies": {
+        "ava": "^5.3.1"
+    },
+    "scripts": {
+        "test": "npx ava"
+    }
+}
