@@ -1,4 +1,4 @@
-# Typx - Type Safety for JavaScript 🚀
+# Typx 🚀
 
 The idea behind the Typx project is to provide a library that offers functions to guarantee type safety in JavaScript. Have you ever received a value from a user and wondered how to ensure it's a number? With Typx, you can have confidence that it's indeed a number! 🧐
 
