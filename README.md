@@ -29,9 +29,9 @@ Typx provides several functions to create safe data types. Here are some example
 ### SafeString 📜
 
 ```javascript
-import { string } from 'typx';
+import { safeString } from 'typx';
 
-const mySafeString = string("Hello, Typx!"); // Creates a safe string
+const mySafeString = safeString("Hello, Typx!"); // Creates a safe string
 console.log(mySafeString.get); // Get the value
 mySafeString.set("New value"); // Set a new value
 ```
@@ -39,9 +39,9 @@ mySafeString.set("New value"); // Set a new value
 ### SafeNumber 🔢
 
 ```javascript
-import { number } from 'typx';
+import { safeNumber } from 'typx';
 
-const mySafeNumber = number(42); // Creates a safe number
+const mySafeNumber = safeNumber(42); // Creates a safe number
 console.log(mySafeNumber.get); // Get the value
 mySafeNumber.set(99); // Set a new value
 ```
@@ -49,9 +49,9 @@ mySafeNumber.set(99); // Set a new value
 ### SafeBoolean ✔️
 
 ```javascript
-import { boolean } from 'typx';
+import { safeBoolean } from 'typx';
 
-const mySafeBoolean = boolean(true); // Creates a safe boolean
+const mySafeBoolean = safeBoolean(true); // Creates a safe boolean
 console.log(mySafeBoolean.get); // Get the value
 mySafeBoolean.set(false); // Set a new value
 ```
@@ -59,9 +59,9 @@ mySafeBoolean.set(false); // Set a new value
 ### SafeArray 📦
 
 ```javascript
-import { array } from 'typx';
+import { safeArray } from 'typx';
 
-const mySafeArray = array([1, 2, 3]); // Creates a safe array
+const mySafeArray = safeArray([1, 2, 3]); // Creates a safe array
 console.log(mySafeArray.get); // Get the value
 mySafeArray.set([4, 5, 6]); // Set a new value
 ```
@@ -69,9 +69,9 @@ mySafeArray.set([4, 5, 6]); // Set a new value
 ### SafeObject 🧩
 
 ```javascript
-import { object } from 'typx';
+import { safeObject } from 'typx';
 
-const mySafeObject = object({ name: 'John', age: 30 }); // Creates a safe object
+const mySafeObject = safeObject({ name: 'John', age: 30 }); // Creates a safe object
 console.log(mySafeObject.get); // Get the value
 mySafeObject.set({ name: 'Alice', age: 25 }); // Set a new value
 ```

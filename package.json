@@ -1,6 +1,6 @@
 {
     "name": "typx",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Typx is a JavaScript library that empowers you with functions to create safe data types in JavaScript, ensuring type safety in your applications.",
     "license": "MIT",
     "main": "./lib/typx.js",
